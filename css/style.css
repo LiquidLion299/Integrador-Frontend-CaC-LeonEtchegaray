@@ -1,0 +1,25 @@
+.fondo1 {
+    /*Seteo y configuración de la imagen de fondo*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/ba1.jpg);
+    padding: 20rem;
+}
+.texto1 {
+    /*Propiedades generales del texto con la imagen de fondo*/
+    font-size: 1.5rem;
+    color: white;
+}
+.boton1 {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 0.3rem;
+    padding: 0.7rem;
+    margin-right: 1.1rem;
+}
+.boton2 {
+    color: white;
+    background-color: green;
+    border-color: green;
+    border-radius: 0.3rem;
+    padding: 0.7rem;
+}
