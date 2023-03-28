@@ -1,3 +1,39 @@
+.fixed {
+    position: fixed;
+}
+.barranav {
+    background-color: dimgray;
+    color: white;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 1rem;
+    padding-top: 1.1rem;
+}
+nav ul li a {
+    color:rgb(187, 187, 187);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.lverde {
+    color: rgb(12, 177, 12);
+}
+nav ul li a:hover {
+    color:white;
+}
+.cac img {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 6rem;
+}
+.nav-link {
+    color: red;
+
+}
+.bsas h1{
+    font-size: 1.8rem;
+    font-weight: light;
+}
 .fondo1 {
     /*Seteo y configuración de la imagen de fondo*/
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/ba1.jpg);
@@ -25,7 +61,6 @@
     border-color: green;
     border-radius: 0.3rem;
     padding: 0.7rem;
-    margin-left: 0.7rem;
 }
 .texto-chico {
     /*Texto "Conoce a los oradores"*/
