@@ -9,6 +9,7 @@
     color: white;
 }
 .boton1 {
+    /*Propiedades del primer boton "Quiero ser orador"*/
     color: white;
     background-color: transparent;
     border-color: white;
@@ -17,9 +18,63 @@
     margin-right: 1.1rem;
 }
 .boton2 {
+    /*Propiedades del segundo boton "Comprar tickets"*/
     color: white;
     background-color: green;
     border-color: green;
     border-radius: 0.3rem;
     padding: 0.7rem;
+}
+.texto-chico {
+    /*Texto "Conoce a los oradores"*/
+    margin-top: 1rem;
+    padding-top: 2rem;
+    line-height: 0.3rem;
+}
+.cuadro {
+    border-style: solid;
+    border-color: rgb(223, 223, 223);
+    align-content: center;
+}
+.sfila2 img {
+    /*Propiedades de las imagenes de los oradores*/
+    align-content: center;
+    width: 27rem;
+    margin-top: 1.3rem;
+    margin-bottom: 1.5rem;
+    padding: 0;
+}
+.petiquetas {
+    float: left;
+}
+.etiquetas {
+    /*Posicionamiento general y fuente de las etiquetas*/
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.3rem;
+    border-radius: 0.4rem;
+    text-align: center;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+}
+.js {
+    background-color: #E7B10A;
+    color: black;
+}
+.react {
+    background-color: #37a395;
+    color: white;
+}
+.negocios {
+    background-color: grey;
+    color: white;
+}
+.sups {
+    
+    background-color: rgb(180, 60, 60);
+    color: white;
+}
+.cuadro h1 {
+    line-height: 0.3;
+    font-size: 1.8rem;
 }
