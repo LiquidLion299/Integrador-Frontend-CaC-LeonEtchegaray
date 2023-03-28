@@ -1,6 +1,8 @@
 .fondo1 {
     /*Seteo y configuración de la imagen de fondo*/
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/ba1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 20rem;
 }
 .texto1 {
@@ -15,7 +17,6 @@
     border-color: white;
     border-radius: 0.3rem;
     padding: 0.7rem;
-    margin-right: 1.1rem;
 }
 .boton2 {
     /*Propiedades del segundo boton "Comprar tickets"*/
@@ -24,6 +25,7 @@
     border-color: green;
     border-radius: 0.3rem;
     padding: 0.7rem;
+    margin-left: 0.7rem;
 }
 .texto-chico {
     /*Texto "Conoce a los oradores"*/
@@ -39,7 +41,7 @@
 .sfila2 img {
     /*Propiedades de las imagenes de los oradores*/
     align-content: center;
-    width: 27rem;
+    width: 100%;
     margin-top: 1.3rem;
     margin-bottom: 1.5rem;
     padding: 0;
