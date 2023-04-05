@@ -2,7 +2,7 @@
     position: fixed;
 }
 .barranav {
-    background-color: dimgray;
+    background-color: rgb(53, 53, 53);
     color: white;
 }
 nav ul li {
@@ -114,4 +114,46 @@ nav ul li a:hover {
 .cuadro h1 {
     line-height: 0.3;
     font-size: 1.8rem;
+}
+.fhonolulu {
+    background-image: url(../img/honolulu.jpg);
+    width: 100%;
+    padding: 18rem;
+    background-size: cover;
+}
+.txhonolulu {
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+.boton3 {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 0.3rem;
+    border-width: 0.1rem;
+    padding: 0.4rem;
+}
+#punteado {
+    text-decoration: underline dotted;
+}
+form input, textarea {
+    border-radius: 0.3rem;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: rgb(179, 179, 179);
+    text-indent: 0.3rem;
+}
+form textarea {
+    font-size: larger;
+}
+.stag {
+    font-size: small;
+    color: rgb(125, 125, 125);
+}
+.boton4 {
+    text-align: center;
+    color: white;
+    background-color: rgb(135, 201, 38);
+    padding: 0.3rem;
+    margin-bottom: 1.4rem;
 }
