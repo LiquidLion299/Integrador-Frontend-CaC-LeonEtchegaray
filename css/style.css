@@ -150,6 +150,9 @@ form textarea {
     font-size: small;
     color: rgb(125, 125, 125);
 }
+.cont4 .row .texto-chico p {
+    line-height: 1rem;
+}
 .boton4 {
     text-align: center;
     color: white;
