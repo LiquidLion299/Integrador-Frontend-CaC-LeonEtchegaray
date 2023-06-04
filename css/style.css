@@ -136,7 +136,7 @@
 #punteado {
     text-decoration: underline dotted;
 }
-form input, textarea {
+form input, textarea, select {
     border-radius: 0.3rem;
     border-width: 0.1rem;
     border-style: solid;
@@ -196,7 +196,6 @@ form textarea {
     border-style: solid;
     border-color: rgb(22, 12, 151);
     margin-right: 1.2rem;
-    margin-top: 5rem;
     align-content: center;
 }
 .descTrainee {
@@ -209,4 +208,18 @@ form textarea {
     border-style: solid;
     border-color: yellow;
     align-content: center;
+}
+.totalTicket {
+    background-color: rgba(79, 172, 235, 0.4);
+    color: blue;
+    padding-left: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    border-radius: 0.5rem;
+}
+.navtick {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
